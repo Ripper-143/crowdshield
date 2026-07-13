@@ -1,0 +1,13 @@
+{
+  "levels": [
+    {"level": "A", "label": "Free Flow", "min_density": 0, "max_density": 0.54, "min_flow": 0, "max_flow": 23, "color": "#22c55e", "risk_score": 0},
+    {"level": "B", "label": "Reasonably Free", "min_density": 0.54, "max_density": 0.93, "min_flow": 23, "max_flow": 33, "color": "#84cc16", "risk_score": 20},
+    {"level": "C", "label": "Stable", "min_density": 0.93, "max_density": 1.54, "min_flow": 33, "max_flow": 49, "color": "#eab308", "risk_score": 40},
+    {"level": "D", "label": "Constrained", "min_density": 1.54, "max_density": 3.86, "min_flow": 49, "max_flow": 66, "color": "#f97316", "risk_score": 60},
+    {"level": "E", "label": "Critical", "min_density": 3.86, "max_density": 5.4, "min_flow": 66, "max_flow": 82, "color": "#ef4444", "risk_score": 80},
+    {"level": "F", "label": "Crush Imminent", "min_density": 5.4, "max_density": 12.0, "min_flow": 82, "max_flow": 999, "color": "#7f1d1d", "risk_score": 100}
+  ],
+  "citation": "Fruin, J.J. (1971). Pedestrian Planning and Design. Metropolitan Association of Urban Designers and Environmental Planners.",
+  "crush_threshold_density": 6.0,
+  "max_physical_packing": 10.0
+}
